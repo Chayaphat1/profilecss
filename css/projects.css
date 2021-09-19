@@ -1,0 +1,53 @@
+/* CSS files --> projects.html */
+body{
+    background-color: #81657f;
+}
+.table-menu{
+    width:100%; 
+    text-align: center;
+    background-color: #94af94;
+}
+h1{
+    text-align: center; 
+    font-family: cursive;
+    background-color: #827cbb;
+} 
+h4{
+    text-align: center; 
+    font-family: Aclonica; 
+    font-weight: normal;
+}
+h5{ 
+    text-align: center; 
+    font-family: Aclonica; 
+    font-weight: normal;
+}
+p{
+    text-align: center;     
+}
+.table-menu h3{
+    background: #a4cfeb;
+    background-image: -webkit-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -moz-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -ms-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -o-linear-gradient(top, #a4cfeb, #476070);
+    background-image: linear-gradient(to bottom, #a4cfeb, #476070);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #f2c9f2;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .table-menu h3:hover{
+    background: #96316e;
+    background-image: -webkit-linear-gradient(top, #96316e, #ed4071);
+    background-image: -moz-linear-gradient(top, #96316e, #ed4071);
+    background-image: -ms-linear-gradient(top, #96316e, #ed4071);
+    background-image: -o-linear-gradient(top, #96316e, #ed4071);
+    background-image: linear-gradient(to bottom, #96316e, #ed4071);
+    text-decoration: none;
+  }

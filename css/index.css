@@ -1,0 +1,91 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-color: burlywood;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    /*background-color: rgb(121, 180, 183);*/
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    /*background-color: rgb(61, 178, 255);*/
+}
+h4{
+    text-align: center;
+    font-family: Aclonica;
+    font-weight: normal;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+/* (2) Class Selector */
+.p-Aboutme{
+    font-weight:normal; 
+    text-align: justify;
+}
+.p-Name{
+    font-weight:normal;
+}
+.p-Footer{
+    text-align: center;
+}
+.name{text-decoration: underline;
+color: aqua;
+background-color:rgb(113, 111, 129);
+}
+.name1{text-decoration:underline;
+color: blue;
+background-color: chocolate;
+}
+
+
+/* (3) Id Selector */        
+#th-Details{
+    text-align: left;
+}
+/* div */
+.top-container{
+    background-color: salmon;
+}
+.table-content h2{
+background-color: rgb(255, 184, 48);
+}
+.table-content img:hover{
+    background-color: rgb(49, 126, 103);
+}
+.table-menu h3{
+    background: #a4cfeb;
+    background-image: -webkit-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -moz-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -ms-linear-gradient(top, #a4cfeb, #476070);
+    background-image: -o-linear-gradient(top, #a4cfeb, #476070);
+    background-image: linear-gradient(to bottom, #a4cfeb, #476070);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #f2c9f2;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .table-menu h3:hover{
+    background: #96316e;
+    background-image: -webkit-linear-gradient(top, #96316e, #ed4071);
+    background-image: -moz-linear-gradient(top, #96316e, #ed4071);
+    background-image: -ms-linear-gradient(top, #96316e, #ed4071);
+    background-image: -o-linear-gradient(top, #96316e, #ed4071);
+    background-image: linear-gradient(to bottom, #96316e, #ed4071);
+    text-decoration: none;
+  }
